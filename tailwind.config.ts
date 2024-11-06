@@ -20,6 +20,7 @@ const config: Config = {
         sm: 'calc(var(--radius) - 4px)',
       },
       colors: {
+        bl4ck: '#1A1A1D',
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
         card: {

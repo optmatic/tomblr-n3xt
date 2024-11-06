@@ -1,12 +1,10 @@
 import './globals.css';
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
-
-const inter = Inter({ subsets: ['latin'] });
+import { inter, roboto_mono } from './font.ts'
 
 export const metadata: Metadata = {
-  title: 'John Doe - Software Engineer',
-  description: 'Personal website and portfolio of John Doe',
+  title: "[Thomas Hand] - Optimising the web to the nth degree",
+  description: "I've never been great at writing meta descriptions.",
 };
 
 export default function RootLayout({
