@@ -1,6 +1,7 @@
 import './globals.css';
 import type { Metadata } from 'next';
-import { inter, roboto_mono } from './font.ts'
+import { GeistSans } from 'geist/font/sans';
+import { GeistMono } from 'geist/font/mono';
 
 export const metadata: Metadata = {
   title: "[Thomas Hand] - Optimising the web to the nth degree",
@@ -14,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${GeistSans.className} ${GeistMono.variable}`}>{children}</body>
     </html>
   );
 }

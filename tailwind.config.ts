@@ -20,6 +20,9 @@ const config: Config = {
         sm: 'calc(var(--radius) - 4px)',
       },
       colors: {
+        optmaticDark: '#101827',
+        optmaticGreen: '#3fbca0',
+        optmaticBlue: '#2564e9',
         bl4ck: '#1A1A1D',
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',

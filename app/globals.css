@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* h1, h2, h3, h4, h5, h6 {
+  font-family: GeistSans;
+}
+
+p, a, span, li {
+  font-family: GeistMono;
+}
+
+ */
+
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -34,12 +46,4 @@
   body {
     @apply bg-background text-foreground;
   }
-}
-
-html {
-  font-family: var(--font-inter);
-}
- 
-h1 {
-  font-family: var(--font-roboto-mono);
 }
