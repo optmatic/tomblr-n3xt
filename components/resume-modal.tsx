@@ -15,7 +15,7 @@ export function ResumeModal({ open, onOpenChange }: ResumeModalProps) {
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogContent className="max-w-4xl w-full h-[80vh] p-0">
         <iframe
-          src="/resume.pdf"
+          src="/ThomH_2024.pdf"
           className="w-full h-full"
           style={{ border: 'none' }}
         />
