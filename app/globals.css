@@ -14,6 +14,15 @@ p, a, span, li {
  */
 
 
+ 
+
+ main {
+  @apply bg-bl4ck !important;
+  @apply text-white !important;
+ }
+
+
+
 @layer base {
   :root {
     --background: 0 0% 100%;
