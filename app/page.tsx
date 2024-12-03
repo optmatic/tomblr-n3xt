@@ -35,7 +35,9 @@ export default function Home() {
         I'm Tom, a tech enthusiast with a love for finding data-driven solutions at the intersection of web development and search engine optimisation. I fuel my passion with <a href="https://soundcloud.com/realblackcoffee" target="blank" className="underline decoration-wavy underline-offset-2 text-decoration-2 hover:decoration-white/80" >black coffee</a> and love exploring web-based technologies. Would be lost without Flexbox, Chrome dev tools, Stack Overflow & ChatGPT.
         </p>
 
-        <div className="flex items-center space-x-4">
+
+{/* Links go here once ready */}
+        {/* <div className="flex items-center space-x-4">
           <Link
             href="https://thomhand.notion.site/51c1cbfd3e1548018afc768f5b1e65f9?v=9b60f0d32407458abee59fce66e5e458&pvs=4"
             className="text-white hover:text-white/80 transition-colors"
@@ -56,7 +58,7 @@ export default function Home() {
           >
             <Mail className="h-6 w-6" />
           </Link>
-        </div>
+        </div> */}
 
         <div className="pt-4">
           <Button3d text=" View Resume"
