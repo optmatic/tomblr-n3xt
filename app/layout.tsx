@@ -25,7 +25,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${GeistSans.className} ${GeistMono.variable} bg-bl4ck max-h-screen overflow-y-auto md:overflow-y-hidden md:-mt-6`}>
+      <body className={`${GeistSans.className} ${GeistMono.variable} bg-bl4ck max-h-screen overflow-y-auto md:overflow-y-hidden md:-mt-10`}>
         <Nav />
         {children}
       </body>
