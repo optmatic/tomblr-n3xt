@@ -63,7 +63,7 @@ export default function Home() {
  
         {/* <div className="pt-4"> */}
         <div>
-          <Button3d text=" View Resume"
+          <Button3d text="View Resume"
             onClick={() => setShowResume(true)}
           />
         </div>

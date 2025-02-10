@@ -5,6 +5,7 @@ export default function Button3d({
 }: {
   link?: string;
   text: string;
+  type?: string;
   onClick?: () => void;
 }) {
   return (
