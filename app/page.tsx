@@ -26,13 +26,13 @@ export default function Home() {
           <div>
             <h1 className="text-4xl  font-serif">Thomas Hand</h1>
             <p className="text-sm mt-2 opacity-90 font-light">
-              <span className="underline underline-offset-4">Web development</span>, <span className="underline underline-offset-4">UX</span> and <span className="underline underline-offset-4">SEO</span>.
+              <span className="underline underline-offset-4"><a href="https://www.optmatic.com.au" target="_blank">Web development</a></span>, <span className="underline underline-offset-4">UX</span> and <span className="underline underline-offset-4">SEO</span>.
             </p>
           </div>
         </div>
 
         <p className="text-md font-light leading-relaxed ">
-        I'm Tom, a tech enthusiast with a love for finding data-driven solutions at the intersection of web development and search engine optimisation. I fuel my passion with <a href="https://soundcloud.com/realblackcoffee" target="blank" className="underline decoration-wavy underline-offset-2 text-decoration-2 hover:decoration-white/80" >black coffee</a> and love exploring web-based technologies. Would be lost without Flexbox, Chrome dev tools, Stack Overflow & ChatGPT.
+        I'm Thomas, a tech enthusiast with a love for finding data-driven solutions at the intersection of web development and search engine optimisation. I fuel my passion with <a href="https://soundcloud.com/realblackcoffee" target="blank" className="underline decoration-wavy underline-offset-2 text-decoration-2 hover:decoration-white/80" >black coffee</a> and love exploring web-based technologies. Would be lost without Flexbox, Chrome dev tools, Stack Overflow & ChatGPT.
         </p>
 
 
